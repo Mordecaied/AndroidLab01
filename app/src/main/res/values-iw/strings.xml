@@ -2,5 +2,15 @@
 <resources>
     <string name="app_name">AndroidLab01</string>
     <string name="hello_message">שלום עולם!</string>
-    <string name="ButtonText">אני כפתור</string>
+    <string name="ButtonTexttton">אני כפתור</string>
+    <string name="RadioButton">כפתור רדיו</string>
+    <string name="CheckBox">תיבת סימון</string>
+    <string name="Switch">מתג</string>
+    <string name="password">סיסמא</string>
+    <string name="Login_Place">התחבר</string>
+    <string name="Login_Hint">שם משתמש</string>
+    <string name="Wdtd">מה זה עושה?</string>
+    <string name="LOGIN">התחבר</string>
+    <string name="dialog_message">לסיים את הפעילות?</string>
+    <string name="dialog_title">אופציות תיבת סימון</string>
 </resources>
