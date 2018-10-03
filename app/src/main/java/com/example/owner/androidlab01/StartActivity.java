@@ -38,9 +38,7 @@ public class StartActivity extends Activity{
            Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult");
            String messagePassed = data.getStringExtra("Response");
             Toast.makeText(StartActivity.this, "ListItemsActivity passed: My information to share", Toast.LENGTH_SHORT).show();
-             {
 
-           }
         }
     }
     @Override
