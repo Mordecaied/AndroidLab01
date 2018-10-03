@@ -7,10 +7,6 @@
     </uses-feature>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <!--DO I NEED THIS?!!!!!!-->
-    <!--<uses-permission-->
-        <!--android:name="android.permission.CAMERA">-->
-    <!--</uses-permission>-->
 
     <application
         android:allowBackup="true"
