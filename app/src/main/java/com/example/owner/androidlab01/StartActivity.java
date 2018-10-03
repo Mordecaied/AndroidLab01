@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import static android.app.Activity.RESULT_OK;
 
@@ -35,6 +36,8 @@ public class StartActivity extends Activity{
         super.onActivityResult(requestCode,resultCode,data);
         if (requestCode == 50 && resultCode == RESULT_OK){
            Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult");
+           String messagePassed = data.getStringExtra("Response");
+            Toast.makeText(StartActivity.this, "ListItemsActivity passed: My information to share", Toast.LENGTH_SHORT).show();
              {
 
            }
