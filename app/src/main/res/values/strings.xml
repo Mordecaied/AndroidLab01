@@ -13,5 +13,6 @@
     <string name="dialog_message">Finish the activity?</string>
     <string name="dialog_title">CheckBox Options</string>
     <string name="ButtonTexttton">I am A Button</string>
+    <string name="StartChat">Start Chat</string>
 
 </resources>

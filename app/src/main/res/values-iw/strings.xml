@@ -13,4 +13,5 @@
     <string name="LOGIN">התחבר</string>
     <string name="dialog_message">לסיים את הפעילות?</string>
     <string name="dialog_title">אופציות תיבת סימון</string>
+    <string name="StartChat">צ\'אט</string>
 </resources>
