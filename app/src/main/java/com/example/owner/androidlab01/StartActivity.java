@@ -14,7 +14,6 @@ public class StartActivity extends Activity{
 
     protected static final String ACTIVITY_NAME = "StartActivity";
     private Button buttonXYZ;
-    private Button chatButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,18 +21,6 @@ public class StartActivity extends Activity{
         setContentView(R.layout.activity_start);
         Log.i(ACTIVITY_NAME, "In onCreate()");
 
-        //START CHAT BUTTON
-        chatButton = (Button)findViewById(R.id.chatButton);
-        chatButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(chatButton != null){
-                    Log.i(ACTIVITY_NAME, "User clicked Start Chat");
-                }
-            }
-        });
-
-        //IM A BUTTON
         buttonXYZ = (Button) findViewById(R.id.testButton);
 
         buttonXYZ.setOnClickListener(new View.OnClickListener() {
