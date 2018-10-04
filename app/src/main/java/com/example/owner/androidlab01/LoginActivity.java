@@ -32,18 +32,18 @@ public class LoginActivity extends Activity {
 
         sharedPref = getSharedPreferences(MY_PREF,MODE_PRIVATE);
         defaultEmail = sharedPref.getString(DEFAULT_EMAIL_KEY,"email@domain.com");
-        emailEditText.setText(defaultEmail);
+        emailEditText.setText(sharedPref.getString("email", " "));
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sharedPref.edit().putString(" ",emailEditText.getText().toString()).apply();//apply to who?
+                SharedPreferences.Editor editor = sharedPref.edit();
+                editor.putString("email",emailEditText.getText().toString()).commit();
                 Intent intent = new Intent(LoginActivity.this, StartActivity.class);
                 startActivity(intent);
             }
         });
     }
-
 
     @Override
     protected void onResume() {
