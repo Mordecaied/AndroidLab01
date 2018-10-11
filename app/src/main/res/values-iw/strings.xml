@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AndroidLab01</string>
-    <string name="hello_message">שלום עולם!</string>
     <string name="ButtonTexttton">אני כפתור</string>
     <string name="RadioButton">כפתור רדיו</string>
     <string name="CheckBox">תיבת סימון</string>
@@ -13,4 +12,7 @@
     <string name="LOGIN">התחבר</string>
     <string name="dialog_message">לסיים את הפעילות?</string>
     <string name="dialog_title">אופציות תיבת סימון</string>
+    <string name="chat_Button">התחל בצ\'אט</string>
+    <string name="ButtonText">אני כפתור</string>
+    <string name="SEND">שלח</string>
 </resources>
